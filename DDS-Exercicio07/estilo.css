@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(65,105,225);
+}
+
+hr{
+    color: rgb(255, 255, 255);
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New';
+}
+
+h2{
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.img2{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.img3{
+    margin: 10px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.img3:hover{
+    
+    opacity: 1;
+}
+
+.div1{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 2%;
+    background-color: rgb(185, 221, 229);
+
+}
+
+.div2{
+    display: flex;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 1%;
+   
+}
+
+.div3{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 10%;
+    padding: 2%;
+}
+
+.div4{
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.div5{
+    display: flex;
+    margin-left: 1%;
+    margin-right: 10%;
+    margin-top: 1%;
+    padding: 2%;
+}
+
+.img4{
+    display: block;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.img5{
+    display: block;
+    margin: auto;
+}
+
+.p1{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+}
+
+.b1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 0%;
+}
