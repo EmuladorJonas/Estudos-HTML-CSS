@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"fnt1" ;
+    src: url(fonts/MovieNite.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:"fnt2" ;
+    src: url(fonts/OpenSans-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    margin-left: 12%;
+    margin-bottom: 10%;
+}
+
+.logofnt{
+    font-family: "fnt1";
+    text-align: center;
+    font-size: 5em;
+    margin-left: 40%;
+}
+
+.logoimg{
+    display: flex;
+}
+
+header{
+    height: 85px;
+    background-color: orange;
+    margin-bottom: 5%;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+}
+
+footer{
+    display: flex;
+    height: 85px;
+    background-color: orange;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+.img1{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.img2:hover{
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.cont{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cont2{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cont3{
+    margin-left: 10%;
+    margin-right: 10%;
+    cursor: pointer;
+}
+
+.cont31{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cont4{
+    display:flex;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.cont5{
+    display:flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.img3{
+box-shadow: 0 0 20px black;
+}
+
+.p1{
+    text-align: center;
+    font-family: "fnt2";
+    font-size: 3em;
+    color: white;
+}
+
+.p2{
+    text-align: justify;
+    font-family: "fnt2";
+    font-size: 1em;
+    color: white;
+}
+
+.p3{
+    text-align: center;
+    font-family: "fnt2";
+    font-size: 1em;
+    color: white;
+}
+
+.p4{
+    font-family: "fnt2";
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
