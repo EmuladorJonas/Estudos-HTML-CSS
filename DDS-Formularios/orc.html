@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="orc.css">
+    <link rel="shortcut icon" href="imgs/icn.ico" type="image/x-icon">
+    <title>Orçamento</title>
+</head>
+<body>     
+    
+    <header class="cabeçalho">
+
+        <img class="imglogo" src="imgs/logo.png" alt="Logo">
+
+        
+
+        <nav class="menu">
+            
+            <ul>
+                <li>
+                    <a href="index.html">
+                    home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="orc.html">
+                    Orçamento
+                    </a>
+                </li>
+
+                <li>
+                     <a href="cont.html">
+                    Contato
+                    </a>
+                </li>
+
+            </ul>
+
+           
+   
+        </nav>
+        
+    </header>
+    
+    
+
+    <main class="princ">
+
+        <div>
+            <h1>Faça seu Orçamento</h1>
+            <p class="pf">Complete as Informações</p>
+            <br>
+        </div>
+
+        <form>
+            <fieldset class="fd1">
+                <div>
+                    <label >Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+
+                <div>
+                    <label>Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+            </fieldset>
+
+            <div class="it">
+                <label>Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="it">
+                <label>Telefone</label>
+                <input type="fone" name="fone" id="fone">
+            </div>
+
+            <div class="it">
+                <label>Qual o tipo de Requisição?</label>
+
+                <label>
+                    <input type="radio" name="opc" value="contato"> Contato
+                </label>
+
+                <label>
+                    <input type="radio" name="opc" value="orçamento" checked > Orçamento
+                </label>
+
+            </div>
+
+            <div class="it">
+                <label>Você é Representante?</label>
+                <select id="Você é Representante?">
+                    <option selected disabled value="">-</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                    <option>talvez</option>
+                </select>
+                
+            </div>
+
+            <div class="it">
+                <br>
+                <label>Informe sua Requisição</label>
+
+                <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+            </div>
+
+            <button type="submit"> Enviar</button>
+        </form>
+        
+       
+    </main>
+
+    <footer class="rodape">
+        Desenvolvido por: EmuladorJonas &copy;
+        <p>"- Sucessos... Salvem o criador..."</p>
+    </footer>
+</body>
+</html>
